@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 352" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">maoyadongsh — AI systems, built for work.</title>
+  <desc id="desc">Engineering across agent systems, enterprise platforms and business applications.</desc>
+  <rect x="1" y="1" width="998" height="350" rx="18" fill="#101A29" stroke="#293A50"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <circle cx="49" cy="47" r="4" fill="#8AB5FF"/>
+    <text x="64" y="53" fill="#A1B2C9" font-size="17" font-weight="500">maoyadongsh</text>
+    <text x="44" y="139" fill="#EDF2F8" font-size="57" font-weight="700" letter-spacing="-2">AI systems,</text>
+    <text x="44" y="206" fill="#EDF2F8" font-size="57" font-weight="700" letter-spacing="-2">built for work.</text>
+    <path d="M46 237H87" stroke="#8AB5FF" stroke-width="3"/>
+    <text x="44" y="270" fill="#A1B2C9" font-size="16">From agent capability to business workflows.</text>
+    <text x="44" y="316" fill="#8AB5FF" font-size="11" font-weight="600" letter-spacing="2">SYSTEMS THINKING · APPLIED AI · OPEN SOURCE</text>
+    <path d="M612 103V265M612 103H636M612 184H636M612 265H636" stroke="#395C8C" stroke-width="2"/>
+    <circle cx="612" cy="184" r="4" fill="#8AB5FF"/>
+    <rect x="636" y="70" width="320" height="66" rx="10" fill="#162337" stroke="#293A50"/>
+    <rect x="648" y="83" width="38" height="40" rx="7" fill="#1E304B"/>
+    <text x="667" y="109" text-anchor="middle" fill="#8AB5FF" font-size="15" font-weight="600">01</text>
+    <text x="701" y="96" fill="#EDF2F8" font-size="14" font-weight="600" letter-spacing="1">APPLICATIONS</text>
+    <text x="701" y="117" fill="#A1B2C9" font-size="12">Research / Finance / Operations</text><rect x="636" y="151" width="320" height="66" rx="10" fill="#162337" stroke="#293A50"/>
+    <rect x="648" y="164" width="38" height="40" rx="7" fill="#1E304B"/>
+    <text x="667" y="190" text-anchor="middle" fill="#8AB5FF" font-size="15" font-weight="600">02</text>
+    <text x="701" y="177" fill="#EDF2F8" font-size="14" font-weight="600" letter-spacing="1">PLATFORMS</text>
+    <text x="701" y="198" fill="#A1B2C9" font-size="12">Workflow / Identity / Knowledge</text><rect x="636" y="232" width="320" height="66" rx="10" fill="#162337" stroke="#293A50"/>
+    <rect x="648" y="245" width="38" height="40" rx="7" fill="#1E304B"/>
+    <text x="667" y="271" text-anchor="middle" fill="#8AB5FF" font-size="15" font-weight="600">03</text>
+    <text x="701" y="258" fill="#EDF2F8" font-size="14" font-weight="600" letter-spacing="1">AGENT SYSTEMS</text>
+    <text x="701" y="279" fill="#A1B2C9" font-size="12">Runtime / Models / Evidence</text>
+  </g>
+</svg>
