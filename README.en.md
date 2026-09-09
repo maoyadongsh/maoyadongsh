@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-header-dark.svg" />
-  <img src="assets/profile-header.svg" width="1000" alt="maoyadongsh · AI systems, built for work. From agent capability to business workflows." />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-hero-dark.svg" />
+  <img src="assets/profile-hero-light.svg" width="1000" alt="maoyadongsh · AI systems, built for work. From agent capability to business workflows." />
 </picture>
 
 <p align="center"><strong>Applied AI &amp; Enterprise Systems Engineering</strong><br />

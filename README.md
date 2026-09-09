@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-header-dark.svg" />
-  <img src="assets/profile-header.svg" width="1000" alt="maoyadongsh · AI systems, built for work. 从智能体能力到业务系统。" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-hero-dark.svg" />
+  <img src="assets/profile-hero-light.svg" width="1000" alt="maoyadongsh · AI systems, built for work. 从智能体能力到业务系统。" />
 </picture>
 
 <p align="center"><strong>AI 应用与企业系统工程</strong><br />
