@@ -25,12 +25,12 @@ The portfolio moves from user workflows to supporting capabilities, spanning ind
 
 Organize domain models, evidence analysis and human decisions into usable product workflows.
 
-| Project and repository | Engineering focus | Access |
-| :--- | :--- | :--- |
-| **SIQ Investment**<br />`siq-investment` | Investment management across GPs, funds and direct investments: fundraising, due diligence, investment committees, closing, portfolio management and exits, connected to cash flows, approvals and audit records. | Private |
-| **FinSight**<br />`finsight` | A research workbench bringing financial report retrieval, parsing, analysis, fact-checking, monitoring and legal research together with multiple specialist agents. | Private |
-| **Group Corporate Governance Platform** | Organizes entity records, ownership relationships, proposals, resolutions and governance documents for a group and its member companies, with information lookup, evidence tracing and analysis. | Private |
-| **HRsight**<br />`hrsight` | A people operations MVP for groups and subsidiaries, combining talent dashboards, HR workflows, reports, tasks, policy Q&amp;A and legal compliance. | Private |
+| Project and repository | Engineering focus |
+| :--- | :--- |
+| **SIQ Investment**<br />`siq-investment`<br /><sub>Private repository</sub> | Investment management across GPs, funds and direct investments: fundraising, due diligence, investment committees, closing, portfolio management and exits, connected to cash flows, approvals and audit records. |
+| **FinSight**<br />`finsight`<br /><sub>Private repository</sub> | A research workbench bringing financial report retrieval, parsing, analysis, fact-checking, monitoring and legal research together with multiple specialist agents. |
+| **Group Corporate Governance Platform**<br /><sub>Private project</sub> | Organizes entity records, ownership relationships, proposals, resolutions and governance documents for a group and its member companies, with information lookup, evidence tracing and analysis. |
+| **HRsight**<br />`hrsight`<br /><sub>Private repository</sub> | A people operations MVP for groups and subsidiaries, combining talent dashboards, HR workflows, reports, tasks, policy Q&amp;A and legal compliance. |
 
 ### 02 · Knowledge and research engineering
 
@@ -38,11 +38,11 @@ Organize domain models, evidence analysis and human decisions into usable produc
 
 Turn source materials into citable facts and knowledge, preserving the context and evidence behind research.
 
-| Project and repository | Engineering focus | Access |
-| :--- | :--- | :--- |
-| **SIQ Research Engine**<br />`siq-research-engine` | Connects official disclosures across markets, financial report parsing, LLM Wiki evidence organization, retrieval and multi-agent research, with quality checks and human sign-off. | Private |
-| **SIQ Document Engine**<br />`siq-document-engine` | Converts PDF and Office materials into versioned parsing artifacts, with quality checks, source location tracking, citation verification and retrieval. | Private |
-| **SIQ Memory**<br />`siq-memory` | Manages user preferences, corrections and project context across sessions, including candidate confirmation, authorized retrieval, retention, deletion and retrieval receipts. | Private |
+| Project and repository | Engineering focus |
+| :--- | :--- |
+| **SIQ Research Engine**<br />`siq-research-engine`<br /><sub>Private repository</sub> | Connects official disclosures across markets, financial report parsing, LLM Wiki evidence organization, retrieval and multi-agent research, with quality checks and human sign-off. |
+| **SIQ Document Engine**<br />`siq-document-engine`<br /><sub>Private repository</sub> | Converts PDF and Office materials into versioned parsing artifacts, with quality checks, source location tracking, citation verification and retrieval. |
+| **SIQ Memory**<br />`siq-memory`<br /><sub>Private repository</sub> | Manages user preferences, corrections and project context across sessions, including candidate confirmation, authorized retrieval, retention, deletion and retrieval receipts. |
 
 ### 03 · Agent runtimes and security
 
@@ -50,11 +50,11 @@ Turn source materials into citable facts and knowledge, preserving the context a
 
 Address agent execution, deployment and management, and the authorization and observable effects of tool actions.
 
-| Project and repository | Engineering focus | Access |
-| :--- | :--- | :--- |
-| **[SIQ Agent Security](https://github.com/maoyadongsh/siq-agent-security)**<br />`siq-agent-security` | An independent security runtime for Agent Skills: authorization and argument provenance checks, signed receipts and effect evidence, with public cases and reproduction tools. | **Open source** |
-| **SIQ Agent Hub**<br />`siq-agent-hub` | A control plane for agent registration, versioned assets, evaluation gates, runtime lifecycle and session records, integrating data policy and evidence checks. | Private |
-| **Hermes Agent · SIQ adaptation**<br />`hermes-agent` | SIQ adaptations of Nous Research's [Hermes Agent](https://github.com/NousResearch/hermes-agent), focused on runtime state directory isolation, tool allowlists and platform integration. | Private |
+| Project and repository | Engineering focus |
+| :--- | :--- |
+| **[SIQ Agent Security](https://github.com/maoyadongsh/siq-agent-security)**<br />`siq-agent-security`<br /><sub>Open source</sub> | An independent security runtime for Agent Skills: authorization and argument provenance checks, signed receipts and effect evidence, with public cases and reproduction tools. |
+| **SIQ Agent Hub**<br />`siq-agent-hub`<br /><sub>Private repository</sub> | A control plane for agent registration, versioned assets, evaluation gates, runtime lifecycle and session records, integrating data policy and evidence checks. |
+| **Hermes Agent · SIQ adaptation**<br />`hermes-agent`<br /><sub>Private repository</sub> | SIQ adaptations of Nous Research's [Hermes Agent](https://github.com/NousResearch/hermes-agent), focused on runtime state directory isolation, tool allowlists and platform integration. |
 
 ### 04 · Enterprise platform and collaboration
 
@@ -62,14 +62,14 @@ Address agent execution, deployment and management, and the authorization and ob
 
 Connect identity, workflows, interfaces, messaging and deployment through clear service boundaries that business applications can reuse.
 
-| Project and repository | Engineering focus | Access |
-| :--- | :--- | :--- |
-| **SIQ Org IAM**<br />`siq-org-iam` | Shared identity and organization services for users, positions, roles, data permissions, sessions, service identities and delegated authorization. | Private |
-| **SIQ Flow Engine**<br />`siq-flow-engine` | Versioned process definitions for approvals, branching and task orchestration. Agents supply advisory opinions; human approvers make decisions. | Private |
-| **SIQ Gateway**<br />`siq-gateway` | A common entry point for business APIs and model calls, governing model access, usage, quotas, circuit breakers and streaming requests. | Private |
-| **SIQ Workbench**<br />`siq-workbench` | Dynamic forms, process design, approval inboxes, agent Q&amp;A and administration, with reusable form and UI components. | Private |
-| **SIQ Notify**<br />`siq-notify` | Turns process and business events into notifications, handling recipient resolution, delivery channels, retries and dead-letter replay. | Private |
-| **SIQ Platform**<br />`siq-platform` | Maintains the SIQ deployment and integration baseline: service topology, environment initialization, database migrations, health checks and integration acceptance. | Private |
+| Project and repository | Engineering focus |
+| :--- | :--- |
+| **SIQ Org IAM**<br />`siq-org-iam`<br /><sub>Private repository</sub> | Shared identity and organization services for users, positions, roles, data permissions, sessions, service identities and delegated authorization. |
+| **SIQ Flow Engine**<br />`siq-flow-engine`<br /><sub>Private repository</sub> | Versioned process definitions for approvals, branching and task orchestration. Agents supply advisory opinions; human approvers make decisions. |
+| **SIQ Gateway**<br />`siq-gateway`<br /><sub>Private repository</sub> | A common entry point for business APIs and model calls, governing model access, usage, quotas, circuit breakers and streaming requests. |
+| **SIQ Workbench**<br />`siq-workbench`<br /><sub>Private repository</sub> | Dynamic forms, process design, approval inboxes, agent Q&amp;A and administration, with reusable form and UI components. |
+| **SIQ Notify**<br />`siq-notify`<br /><sub>Private repository</sub> | Turns process and business events into notifications, handling recipient resolution, delivery channels, retries and dead-letter replay. |
+| **SIQ Platform**<br />`siq-platform`<br /><sub>Private repository</sub> | Maintains the SIQ deployment and integration baseline: service topology, environment initialization, database migrations, health checks and integration acceptance. |
 
 ## Open source
 

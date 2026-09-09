@@ -25,12 +25,12 @@
 
 将领域模型、证据分析与人工决策组织为可操作的产品工作流。
 
-| 项目与仓库 | 核心工作 | 状态 |
-| :--- | :--- | :--- |
-| **SIQ Investment · 投资管理**<br />`siq-investment` | 面向多 GP、基金与直投项目，组织募资、尽调、投委会、交割、投后与退出流程，关联资金事实、审批与审计。 | 私有 |
-| **FinSight · 投研工作台**<br />`finsight` | 将财报获取、解析、研究报告、事实核查、持续跟踪与法务分析汇集到统一工作台，结合多角色智能体交互。 | 私有 |
-| **集团化公司治理平台** | 围绕集团及成员企业的主体档案、股权关系、议案决议与治理文档，提供信息查询、证据追溯与智能分析。 | 私有 |
-| **HRsight · 智能 HR**<br />`hrsight` | 面向集团与子公司的人才运营 MVP，整合人才看板、HR 工作台、报表、待办、制度问答与法务合规。 | 私有 |
+| 项目与仓库 | 核心工作 |
+| :--- | :--- |
+| **SIQ Investment · 投资管理**<br />`siq-investment`<br /><sub>私有仓库</sub> | 面向多 GP、基金与直投项目，组织募资、尽调、投委会、交割、投后与退出流程，关联资金事实、审批与审计。 |
+| **FinSight · 投研工作台**<br />`finsight`<br /><sub>私有仓库</sub> | 将财报获取、解析、研究报告、事实核查、持续跟踪与法务分析汇集到统一工作台，结合多角色智能体交互。 |
+| **集团化公司治理平台**<br /><sub>私有项目</sub> | 围绕集团及成员企业的主体档案、股权关系、议案决议与治理文档，提供信息查询、证据追溯与智能分析。 |
+| **HRsight · 智能 HR**<br />`hrsight`<br /><sub>私有仓库</sub> | 面向集团与子公司的人才运营 MVP，整合人才看板、HR 工作台、报表、待办、制度问答与法务合规。 |
 
 ### 02 · 研究与知识工程
 
@@ -38,11 +38,11 @@
 
 从原始材料建立可引用的事实与知识，让研究过程、证据来源和上下文使用可追溯。
 
-| 项目与仓库 | 核心工作 | 状态 |
-| :--- | :--- | :--- |
-| **SIQ Research Engine · 研究引擎**<br />`siq-research-engine` | 连接多市场官方披露、财报解析、LLM Wiki 证据组织、检索与多智能体研究，保留质量检查与人工签核环节。 | 私有 |
-| **SIQ Document Engine · 文档引擎**<br />`siq-document-engine` | 将 PDF、Office 等材料转为版本化解析产物，提供质量检查、原文位置追溯、引用校验与检索能力。 | 私有 |
-| **SIQ Memory · 授权记忆**<br />`siq-memory` | 管理跨会话的用户偏好、纠错与项目上下文，覆盖候选确认、按权限召回、保留与删除，以及检索回执。 | 私有 |
+| 项目与仓库 | 核心工作 |
+| :--- | :--- |
+| **SIQ Research Engine · 研究引擎**<br />`siq-research-engine`<br /><sub>私有仓库</sub> | 连接多市场官方披露、财报解析、LLM Wiki 证据组织、检索与多智能体研究，保留质量检查与人工签核环节。 |
+| **SIQ Document Engine · 文档引擎**<br />`siq-document-engine`<br /><sub>私有仓库</sub> | 将 PDF、Office 等材料转为版本化解析产物，提供质量检查、原文位置追溯、引用校验与检索能力。 |
+| **SIQ Memory · 授权记忆**<br />`siq-memory`<br /><sub>私有仓库</sub> | 管理跨会话的用户偏好、纠错与项目上下文，覆盖候选确认、按权限召回、保留与删除，以及检索回执。 |
 
 ### 03 · 智能体运行与安全
 
@@ -50,11 +50,11 @@
 
 分别处理智能体如何执行、如何上架与管理，以及工具动作依据什么授权、产生了什么效果。
 
-| 项目与仓库 | 核心工作 | 状态 |
-| :--- | :--- | :--- |
-| **[SIQ Agent Security · 执行安全](https://github.com/maoyadongsh/siq-agent-security)**<br />`siq-agent-security` | 独立的 Agent Skills 安全运行时：核验授权与参数来源，关联签名回执和效果证据，提供公开案例与复现工具。 | **开源** |
-| **SIQ Agent Hub · 智能体控制面**<br />`siq-agent-hub` | 管理智能体注册、版本化资产、评测上架、运行生命周期与会话台账，将数据策略与证据检查接入调用流程。 | 私有 |
-| **Hermes Agent · SIQ 适配**<br />`hermes-agent` | 基于 Nous Research 的 [Hermes Agent](https://github.com/NousResearch/hermes-agent) 维护 SIQ 适配，聚焦运行状态目录隔离、工具白名单与平台接入。 | 私有 |
+| 项目与仓库 | 核心工作 |
+| :--- | :--- |
+| **[SIQ Agent Security · 执行安全](https://github.com/maoyadongsh/siq-agent-security)**<br />`siq-agent-security`<br /><sub>公开开源</sub> | 独立的 Agent Skills 安全运行时：核验授权与参数来源，关联签名回执和效果证据，提供公开案例与复现工具。 |
+| **SIQ Agent Hub · 智能体控制面**<br />`siq-agent-hub`<br /><sub>私有仓库</sub> | 管理智能体注册、版本化资产、评测上架、运行生命周期与会话台账，将数据策略与证据检查接入调用流程。 |
+| **Hermes Agent · SIQ 适配**<br />`hermes-agent`<br /><sub>私有仓库</sub> | 基于 Nous Research 的 [Hermes Agent](https://github.com/NousResearch/hermes-agent) 维护 SIQ 适配，聚焦运行状态目录隔离、工具白名单与平台接入。 |
 
 ### 04 · 企业平台与协作基础
 
@@ -62,14 +62,14 @@
 
 围绕明确的服务边界，连接身份、流程、交互、消息与部署，使业务应用能够复用平台能力。
 
-| 项目与仓库 | 核心工作 | 状态 |
-| :--- | :--- | :--- |
-| **SIQ Org IAM · 身份与组织**<br />`siq-org-iam` | 统一用户、组织、岗位、角色与数据权限，管理登录会话、服务身份和委托授权。 | 私有 |
-| **SIQ Flow Engine · 流程引擎**<br />`siq-flow-engine` | 以版本化流程定义组织审批、条件分支与任务编排；智能体提供顾问意见，由人工审批人决策。 | 私有 |
-| **SIQ Gateway · 网关与模型治理**<br />`siq-gateway` | 汇集业务 API 与模型调用入口，管理模型访问、用量、配额、熔断与流式请求。 | 私有 |
-| **SIQ Workbench · 统一工作台**<br />`siq-workbench` | 提供动态表单、流程设计、待办审批、智能体问答与管理界面，沉淀可复用的表单和 UI 组件。 | 私有 |
-| **SIQ Notify · 消息触达**<br />`siq-notify` | 将流程与业务事件转为通知，管理接收人解析、渠道投递、失败重试与死信回放。 | 私有 |
-| **SIQ Platform · 部署与集成**<br />`siq-platform` | 固化多服务部署拓扑、环境初始化、数据库迁移、健康检查与集成验收，维护 SIQ 全栈运行基线。 | 私有 |
+| 项目与仓库 | 核心工作 |
+| :--- | :--- |
+| **SIQ Org IAM · 身份与组织**<br />`siq-org-iam`<br /><sub>私有仓库</sub> | 统一用户、组织、岗位、角色与数据权限，管理登录会话、服务身份和委托授权。 |
+| **SIQ Flow Engine · 流程引擎**<br />`siq-flow-engine`<br /><sub>私有仓库</sub> | 以版本化流程定义组织审批、条件分支与任务编排；智能体提供顾问意见，由人工审批人决策。 |
+| **SIQ Gateway · 网关与模型治理**<br />`siq-gateway`<br /><sub>私有仓库</sub> | 汇集业务 API 与模型调用入口，管理模型访问、用量、配额、熔断与流式请求。 |
+| **SIQ Workbench · 统一工作台**<br />`siq-workbench`<br /><sub>私有仓库</sub> | 提供动态表单、流程设计、待办审批、智能体问答与管理界面，沉淀可复用的表单和 UI 组件。 |
+| **SIQ Notify · 消息触达**<br />`siq-notify`<br /><sub>私有仓库</sub> | 将流程与业务事件转为通知，管理接收人解析、渠道投递、失败重试与死信回放。 |
+| **SIQ Platform · 部署与集成**<br />`siq-platform`<br /><sub>私有仓库</sub> | 固化多服务部署拓扑、环境初始化、数据库迁移、健康检查与集成验收，维护 SIQ 全栈运行基线。 |
 
 ## 开源作品
 
