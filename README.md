@@ -1,10 +1,9 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-hero-dark.svg" />
-  <img src="assets/profile-hero-light.svg" width="1000" alt="maoyadongsh · AI systems, built for work. 从智能体能力到业务系统。" />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/profile-intro-zh-dark-mobile.svg" />
+  <source media="(max-width: 600px)" srcset="assets/profile-intro-zh-light-mobile.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-intro-zh-dark.svg" />
+  <img src="assets/profile-intro-zh-light.svg" width="1200" alt="maoyadongsh · AI 应用与企业系统工程。让智能体能力进入真实业务，让系统运行有边界、结果有依据。工程方向：业务应用、研究与知识、智能体系统、企业平台。" />
 </picture>
-
-<p align="center"><strong>AI 应用与企业系统工程</strong><br />
-让智能体能力进入真实业务，让系统运行有边界、结果有依据。</p>
 
 <p align="center">
   <strong>简体中文</strong> · <a href="README.en.md">English</a><br />

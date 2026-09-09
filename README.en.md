@@ -1,10 +1,9 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-hero-dark.svg" />
-  <img src="assets/profile-hero-light.svg" width="1000" alt="maoyadongsh · AI systems, built for work. From agent capability to business workflows." />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/profile-intro-en-dark-mobile.svg" />
+  <source media="(max-width: 600px)" srcset="assets/profile-intro-en-light-mobile.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-intro-en-dark.svg" />
+  <img src="assets/profile-intro-en-light.svg" width="1200" alt="maoyadongsh · Applied AI &amp; Enterprise Systems Engineering. AI systems built for real work, with clear boundaries and traceable results. Business applications, knowledge and research, agent systems, and enterprise platforms." />
 </picture>
-
-<p align="center"><strong>Applied AI &amp; Enterprise Systems Engineering</strong><br />
-Bringing agent capabilities into business workflows, with clear boundaries and traceable results.</p>
 
 <p align="center">
   <a href="README.md">简体中文</a> · <strong>English</strong><br />
